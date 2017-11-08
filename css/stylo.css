@@ -1,0 +1,107 @@
+body{  /* cuerpo donde va el fondo */
+
+
+  background-image: url(../imag/fondo.jpg);
+  text-align: center;
+  margin-top: 30px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.logo{
+  color: white;
+  font-size: 310%;
+  padding: 30px;
+}
+
+#tweet{ /* contenedor donde irá textarea*/
+  display: inline-block;
+  position: relative;
+  background-color: #fff;
+  width: 450px;
+  height: 170px;
+  border-radius: 15px;
+  margin-left: 600px;
+  margin-top: -200px;
+  
+}
+
+.txt{ /* textarea*/
+  border: 2px solid #a5d1fd;
+  margin-top: 20px;
+  width: 400px;
+  height: 80px;
+  border-radius: 6px;
+  padding-left: 10px;
+  font-family: Lato;
+  font-weight: 500;
+  padding-top: 7px;
+}
+
+.txt:focus{ /* para quitar el borde rojo al hacer click */
+  outline: none;
+}
+
+.contenedor-text{ /*caja de texto izquierdo*/
+
+  display: inline-block;
+  position: absolute;
+  background-color: #fff;
+  width: 400px;
+  height: 150px;
+  margin-top: 20px;
+
+}
+
+
+button{ /*boton */
+  display: inline-block;
+  position: absolute;
+  color: white;
+  background-color: #0084b4;
+  border-radius: 15px;
+  padding: 8px;
+  border-style: none;
+  width: 80px;
+  margin-top: 30px;
+  margin-left: -200px;
+  font-family: Lato;
+  font-weight: 700;
+  outline: none;
+}
+button:hover{ /* propiedades del botón al pasar por encima */
+  background-color: #026b91;
+  cursor: pointer;
+}
+
+button:active{ /* propiedades del botón al hacer click */
+  background-color: #026b91;
+  border-style:none;
+  transform: translateY(0.7px)
+}
+
+
+.contenedor{
+  background-color: #e8f3fe;
+  color: #828080;
+  width: 452px;
+  margin-top: 40px;
+  margin-left: 432px;
+}
+
+.user{
+  display: inline-block;
+  margin-top: 10px;
+  font-family: Lato;
+  font-weight: 800;
+
+}
+
+.date{
+  display: block;
+  font-family: Lato;
+  font-weight: 200;
+  color: #babbbc;
+  margin-top: 3px;
+}

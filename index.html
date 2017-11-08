@@ -1,0 +1,37 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="assets/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/stylo.css">
+    <title>Twitter</title>
+  </head>
+  <body>
+    <div class="logo">
+       <h1>Twitter</h1>
+    </div> <!--aqui termina logo-->
+
+    <div class="contenedor-text">
+     <h1 class="titulo"> Reto de Codigo </h1>
+          <p class="parrafo"> Hola, soy front-end developer jr.</p>
+    </div><!--aqui termina contenedor-text-->
+    
+
+    <div id="tweet">
+      <textarea id="ingreso" class="txt" rows="10" cols="40" placeholder="ingresa tú comentario" onKeyDown="contar()" onKeyUp="contar()"></textarea>
+    </div> <!--aqui termina tweet-->
+    <input id="number"  value="140" disabled size="3">
+
+    <button type="button" id="btn" onclick="add()">Twittear</button>
+
+
+
+  
+    <div id="lineaTiempo">
+        <!--linea de tiempo-->
+    </div>
+    <script type="text/javascript" src="js/main.js"></script>
+  </body>
+</html>
